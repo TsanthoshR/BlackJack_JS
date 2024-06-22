@@ -5,6 +5,8 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 
+let messageEl = document.getElementById("message-el")
+console.log(messageEl)
 
 function startGame() {
     if (sum <= 20) {
@@ -17,8 +19,9 @@ function startGame() {
         isAlive = false
     }
 
+    messageEl.textContent = message
+
     console.log("clicked")
     // window.alert("clicked")
-
     console.log(message)
 }
