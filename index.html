@@ -8,10 +8,15 @@
         <h1>Blackjack</h1>
             <div id="container">
                 <p id="message-el">Want to play a round?</p>
-                <p>Cards : </p>
-                <p>Sum :</p>
+                <p id="cards-el">Cards : </p>
+                <p id="sum-el">Score :</p>
 
-                <button onclick="startGame()" id="start-game-button">START GAME</button>
+
+                    <button onclick="startGame()" id="start-game-button">START GAME</button>
+                    <br>
+                    <button onclick="newCard()" id="new-card-button">NEW CARD</button>
+                    <p id="player-el"></p>
+
             </div>
             <script src="index.js"></script>
     </body>

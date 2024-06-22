@@ -13,6 +13,7 @@ h1 {
 #message-el {
 
     font-style: italic;
+    /* font-variant-emoji: text; */
 }
 
 #container {
@@ -30,5 +31,22 @@ h1 {
     background: goldenrod;
     border-radius: 5px;
     border: none;
+    margin-bottom: 4px;
+
+}
+
+#new-card-button {
+    color: #016f32;
+    width: 150px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: goldenrod;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-group button {
+    display: block; /* Make the buttons appear below each other */
 
 }
